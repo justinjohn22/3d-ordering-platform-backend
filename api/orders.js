@@ -7,6 +7,7 @@ export default async function handler(req, res) {
     const allowedOrigins = [
         "http://localhost:3001",
         "https://3d-ordering-platform.vercel.app",
+        "https://3d-ordering-platform-justinjohn22s-projects.vercel.app",
     ];
     const origin = req.headers.origin;
     if (allowedOrigins.includes(origin)) {
