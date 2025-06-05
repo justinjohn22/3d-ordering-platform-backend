@@ -2,7 +2,7 @@
 
 import express from "express";
 import dotenv from "dotenv";
-import ordersRouter from "./routes/orders.js";
+import ordersRouter from "./api/orders.js";
 
 dotenv.config();
 
